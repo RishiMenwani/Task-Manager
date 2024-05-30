@@ -1,0 +1,32 @@
+//TextAreaField
+.wrapper {
+  width: 100%;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.375rem;
+  border: 1px solid #828fa3;
+  outline: none;
+  transition: border-color 0.15s ease-in-out;
+  color: #2d3748;
+  background-color: transparent;
+
+  .dark {
+    color: #ffffff;
+  }
+}
+
+.wrapper::placeholder {
+  color: #a0aec0;
+}
+
+//TextAreaLabel
+.labelWrapper {
+  width: 100%;
+  color: #2d3748;
+  font-size: 0.875rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.labelWrapper.dark {
+  color: #ffffff;
+}

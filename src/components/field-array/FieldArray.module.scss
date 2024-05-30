@@ -1,0 +1,39 @@
+.wrapper {
+  margin-bottom: 0.5rem;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.actionButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+  padding: 0;
+  background-color: #4f46e5;
+  // padding: 0.25rem;
+  margin-left: 0.5rem;
+  // background-color: rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease;
+  width: 34px;
+  height: 34px;
+  color: #fff;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  &.dark {
+    background-color: rgba(255, 255, 255, 0.1);
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+  }
+}
+
+.inputWrapper {
+  display: flex;
+}

@@ -1,0 +1,34 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  align-items: stretch;
+  padding-top: 4rem;
+  background-color: #f4f7fd;
+  transition: none;
+
+  @media (min-width: 768px) {
+    margin-left: 256px;
+    padding-top: 5rem;
+    transition: margin;
+  }
+
+  &.dark {
+    background-color: #20212c;
+  }
+
+  &.expanded {
+    margin-left: 256px;
+  }
+
+  &.collapsed {
+    margin-left: 0;
+  }
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}

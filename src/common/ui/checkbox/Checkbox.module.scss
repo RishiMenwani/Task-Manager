@@ -1,0 +1,17 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 0.75rem;
+  border-width: 1px;
+  width: 1rem;
+  height: 1rem;
+  background-color: #4f46e5;
+  border-color: #4338ca;
+}
+
+.isActive {
+  background-color: #4f46e5;
+  border-color: #4338ca;
+}

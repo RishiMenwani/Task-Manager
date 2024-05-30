@@ -1,0 +1,72 @@
+// CreateTableButton
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 12px;
+  color: #4b5563;
+  background-color: #1cc9cb;
+  border: none;
+  font-size: 1rem;
+  margin-left: 15px;
+  gap: 5px;
+  border-radius: 30px;
+}
+
+.icon {
+  color: #828fa3;
+}
+
+//List
+.title {
+  font-size: 1rem;
+  color: #828fa3;
+  padding-left: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.list {
+  padding-right: 1.75rem;
+}
+
+//ListItem
+
+.listItemWrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-left: 1.25rem;
+  font-size: 1rem;
+  padding-top: 0.5rem;
+  text-align: left;
+  border: none;
+  border-top-right-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  transition: color 0.2s, background-color 0.2s;
+  margin-bottom: 2px;
+  height: 50px;
+
+  // &:last-child {
+  //   margin-bottom: 0;
+  // }
+
+  &.active {
+    background-color: #4f46e5;
+    color: #fff;
+  }
+
+  &.inactive {
+    background-color: transparent;
+    color: #828fa3;
+  }
+
+  &:hover {
+    color: #4f46e5;
+    background-color: #fff;
+  }
+}
+
+.listItemIcon {
+  margin-right: 1rem;
+  color: #828fa3;
+}

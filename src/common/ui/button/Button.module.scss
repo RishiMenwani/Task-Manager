@@ -1,0 +1,47 @@
+.button {
+  font-weight: bold;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+  &:hover {
+    filter: brightness(0.9);
+  }
+
+  &.none {
+    background-color: transparent;
+  }
+
+  &.transparent {
+    background-color: transparent;
+    &:hover {
+      background-color: white;
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+  }
+
+  &.primary {
+    color: white;
+    background-color: #3f37c9;
+    &:hover {
+      color: #3f37c9;
+      background-color: #e0e7ff;
+    }
+  }
+
+  &.secondary {
+    color: #3f37c9;
+    background-color: white;
+    &:hover {
+      background-color: #f5f7ff;
+    }
+  }
+
+  &.rounded-full {
+    border-radius: 9999px;
+  }
+
+  &.rounded {
+    border-radius: 0.375rem;
+  }
+}

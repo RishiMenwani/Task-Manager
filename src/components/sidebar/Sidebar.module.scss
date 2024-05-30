@@ -1,0 +1,60 @@
+// Logo.module.scss
+.brandLogo {
+  padding: 0 1.25rem;
+}
+
+//HideButton.module.scss
+.btnWrapper {
+  position: fixed;
+  bottom: 5rem;
+  left: 0;
+  z-index: 50;
+}
+
+.toggleButton {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-left: 1.25rem;
+  border-top-right-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  height: 2.5rem;
+
+  &.expanded {
+    color: #828fa3;
+  }
+}
+
+//Sidebar
+.sidebarWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  width: 16rem;
+}
+
+.wrapper {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+  width: 100%;
+  min-height: 100vh;
+  border-right: 1px solid #6b7280;
+  transition: none;
+  @media (min-width: 768px) {
+    transition: all;
+  }
+
+  &.expanded {
+    left: 0;
+  }
+
+  &.collapsed {
+    left: -100%;
+  }
+}

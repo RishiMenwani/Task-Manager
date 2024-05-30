@@ -1,0 +1,25 @@
+.backdrop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1300;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modalWrapper {
+  position: relative;
+  padding: 28px;
+  max-width: 416px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.customTitle {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}

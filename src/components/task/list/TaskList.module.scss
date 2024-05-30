@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1.25rem;
+  transition: transform 0.3s ease;
+}
+
+//Column
+.columnWrapper {
+  margin-bottom: 1rem;
+  flex: 1;
+  flex-basis: 280px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 15px;
+  color: #828fa3;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}

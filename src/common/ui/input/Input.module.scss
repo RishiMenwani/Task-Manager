@@ -1,0 +1,31 @@
+.inputFieldWrapper {
+  color: #4b5563;
+  background-color: #fff;
+  display: flex;
+
+  width: 100%;
+  width: -webkit-fill-available;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  border: 1px solid #828fa3;
+
+  outline: none;
+  &:focus {
+    border-color: #3b82f6;
+  }
+
+  &::placeholder {
+    color: #a0aec0;
+  }
+
+  background: transparent;
+}
+
+.inputLabelWrapper {
+  width: 100%;
+  color: #4b5563;
+  background-color: #fff;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
